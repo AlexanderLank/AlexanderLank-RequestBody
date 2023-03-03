@@ -40,7 +40,7 @@ public class JavalinSingleton {
             ObjectMapper ghost = new ObjectMapper();
             Song x = ghost.readValue(jsonString,Song.class);
             x.setArtistName("Beatles");
-            ctx.json(x);
+            ctx.json(x); 
         });
 
 
